@@ -36,8 +36,8 @@ if __name__ == '__main__':
 
     except Exception as e:        
         print('an exception occurred!')
-        print(e)
-        sys.exit(1)
+       	print(e)
+       	sys.exit(1)
     finally:
-        s.close()
+     	s.close()
 
